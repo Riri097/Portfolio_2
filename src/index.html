@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rija Chaulagain - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#index.html" class="navbar-brand">
+            <img src="..//images/logorc.png" alt="Your Logo" class="logo">
+        </a>
+        <div class="container">
+            <button class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+            <div class="navbar-nav-wrapper" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#home" class="nav-link active" data-scroll-nav="0">Profile</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" data-scroll-nav="1">About</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link" data-scroll-nav="4">Project</a></li>
+                    <li class="nav-item"><a href="#academic" class="nav-link" data-scroll-nav="3">Academics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-icons">
+            <a href="#resume" class="icon-button"><i class="fa-regular fa-file"></i></a>
+            <a href="mailto:example@example.com" class="icon-button"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="column left">
+                        <div class="home-text">
+                            <h3>HELLO, I'M</h3>
+                            <h1>RIJA CHAULAGAIN</h1>
+                            <h4>Web Developer | Code Explorer</h4>
+                            <p>
+                                Skilled in HTML, CSS, and JavaScript.<br>
+                                Experience with Java, Python (basics), and C.<br>
+                                Learning DSA and exploring networking concepts.<br>
+                                Passionate about building responsive and dynamic websites.<br>
+                                Always eager to learn new technologies and improve problem-solving skills.
+                            </p>
+                            <div class="home-btn">
+                                <a href="#project" class="btn-1">View my Work</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+                        <div class="home-img">
+                            <img src="..//images/profile.png" alt="Profile Picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-social">
+                <div class="header-social-icon">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="about" class="about-container">
+        <div class="about-title">
+            <h1>About Me</h1>
+        </div>
+        <div class="about-cards">
+            <div class="about-card">
+                <img src="..//images/image.png" alt="Rija Chaulagain">
+                <p class="about-contact-message">We can get connected here:-</p>
+                <div class="about-contact-info">
+                    <ul>
+                        <li>
+                            <span class="about-info-icon"><i class="fas fa-envelope"></i></span>
+                            <span class="about-info-text">chaulagain.rija@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="about-info-icon"><i class="fas fa-phone"></i></span>
+                            <span class="about-info-text">+977 9876543210</span>
+                        </li>
+                    </ul>
+                    <div class="about-button-group">
+                        <a href="mailto:chaulagain.rija@gmail.com" class="about-send-message-btn">Send Message</a>
+                        <a href="#" class="about-hire-me">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about-card">
+                <p>I'm Rija Chaulagain, a passionate Web Developer with a strong foundation in HTML, CSS, JavaScript, and experience in Java, Python (basics), and C. I enjoy building responsive, user-friendly websites and continuously improving my problem-solving skills. Currently pursuing my Bachelor's in IT at Texas College of Management and IT, I am deepening my knowledge in Data Structures & Algorithms (DSA) and exploring networking concepts.</p>
+                <div class="about-skills-section">
+                    <h4>What I Do?</h4>
+                    <div class="about-skill-item">
+                        <h4>
+                            <span class="about-skill-icon"><i class="fas fa-code"></i></span>
+                            C
+                            <span class="about-skill-percentage">90%</span>
+                        </h4>
+                        <div class="about-skill-description">I have a strong grasp of C, allowing me to write efficient and optimized code for system-level programming.</div>
+                        <div class="about-skillbar-container"><div class="about-skills" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="about-skill-item">
+                        <h4>
+                            <span class="about-skill-icon"><i class="fab fa-java"></i></span>
+                            Java
+                            <span class="about-skill-percentage">85%</span>
+                        </h4>
+                        <div class="about-skill-description">With my Java expertise, I build robust and scalable applications using object-oriented programming principles.</div>
+                        <div class="about-skillbar-container"><div class="about-skills" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="about-skill-item">
+                        <h4>
+                            <span class="about-skill-icon"><i class="fab fa-python"></i></span>
+                            Python
+                            <span class="about-skill-percentage">50%</span>
+                        </h4>
+                        <div class="about-skill-description">My Python skills include scripting, automation, and problem-solving techniques.</div>
+                        <div class="about-skillbar-container"><div class="about-skills" style="width: 50%;"></div></div>
+                    </div>
+                    <div class="about-skill-item">
+                        <h4>
+                            <span class="about-skill-icon"><i class="fab fa-html5"></i></span>
+                            HTML & CSS
+                            <span class="about-skill-percentage">80%</span>
+                        </h4>
+                        <div class="about-skill-description">I have a strong grasp of HTML and CSS, allowing me to create visually appealing and responsive web designs.</div>
+                        <div class="about-skillbar-container"><div class="about-skills" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="about-skill-item">
+                        <h4>
+                            <span class="about-skill-icon"><i class="fab fa-js"></i></span>
+                            JavaScript
+                            <span class="about-skill-percentage">75%</span>
+                        </h4>
+                        <div class="about-skill-description">My JavaScript knowledge helps me build dynamic and interactive user experiences.</div>
+                        <div class="about-skillbar-container"><div class="about-skills" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="about-skill-item">
+                        <h4>
+                            <span class="about-skill-icon"><i class="fab fa-wordpress"></i></span>
+                            WordPress
+                            <span class="about-skill-percentage">87%</span>
+                        </h4>
+                        <div class="about-skill-description">I am skilled in WordPress customization, theme development, and plugin integration.</div>
+                        <div class="about-skillbar-container"><div class="about-skills" style="width: 70%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+  <section id="project" class="project-section">
+    <div class="project-container">
+      <h2>My Projects</h2>
+      <p>Explore a collection of my creativity, where innovation meets functionality. Each project is a testament to my passion for crafting seamless digital experiences and solving real-world challenges.</p>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="../images/nepal.png" alt="Project 1">
+          <div class="project-card-content">
+            <h3>Project 1: Responsive Website</h3>
+            <p>A fully responsive website built with HTML, CSS, and JavaScript. It features a modern design and smooth animations.</p>
+            <a href="#" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="../images/ecommerce.png" alt="Project 2">
+          <div class="project-card-content">
+            <h3>Project 2: E-Commerce Platform</h3>
+            <p>An e-commerce platform with a user-friendly interface, built using WordPress.</p>
+            <a href="#" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="../images/portfolio.png" alt="Project 3">
+          <div class="project-card-content">
+            <h3>Project 3: Portfolio Design</h3>
+            <p>A creative portfolio design showcasing my work and skills in web development.</p>
+            <a href="#" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics section -->
+  <section id="academic">
+    <div class="academic-qualification-container">
+      <h1 class="academic-title">Academic</h1>
+      <p class="academic-subtitle">My educational journey and qualifications.</p>
+      <div class="academic-content-wrapper">
+        <div class="academic-left-side">
+          <div class="academic-card">
+            <h2>My Journey from Bio to IT Student</h2>
+            <p>I began as a Biology student, interested in how life works. But my love for technology led me to Computer Science. With self-learning and study, I switched to IT, where I use my problem-solving skills and creativity.</p>
+          </div>
+          <div class="academic-card">
+            <h2>What Drives My Passion for Technology?</h2>
+            <p>Technology can solve real problems and make life better. I love it because it brings positive change. Whether it's creating software, studying data, or building systems, I am inspired by its endless possibilities.</p>
+          </div>
+        </div>
+  
+        <div class="academic-right-side">
+          <div class="academic-timeline">
+            <div class="academic-line"></div>
+  
+            <div class="academic-qualification left">
+              <h2>Class 10 (2020)</h2>
+              <p>Graduated from Prerana English Boarding High School with a focus on academics and extracurriculars.</p>
+            </div>
+            
+            <div class="academic-qualification aright">
+              <h2>+2 in Science (2021-2023)</h2>
+              <p>Studied Biology at Xavier International College, sparking my interest in technology.</p>
+            </div>
+            
+            <div class="academic-qualification left">
+              <h2>BIT (2024-Ongoing)</h2>
+              <p>Pursuing a Bachelor's in IT at Texas College of Management and IT, linked to Lincoln University, Malaysia. Exploring technology and innovation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="#">Profile</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Academics</a>
+    </div>
+
+   
+    <div class="footer-column">
+        <h3>Contact</h3>
+        <p>+977 9876543210</p>
+        <p>chaulagain.rija@gmail.com</p>
+        <p>Boudha, Kathmandu, Nepal</p>
+    </div>
+
+
+    <div class="footer-column">
+        <h3>Follow Me</h3>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
