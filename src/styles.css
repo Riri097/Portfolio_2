@@ -10,9 +10,13 @@
     justify-content: space-between;
     align-items: center;
     transform: translateY(-100%);
+    transition: top 0.3s;
     animation: slideDown 0.8s ease forwards;
 }
 
+.navbar.hide {
+    top: -100px; 
+}
 @keyframes slideDown {
     to {
         transform: translateY(0);
